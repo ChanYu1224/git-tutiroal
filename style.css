@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: lightskyblue;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px 0px 10px 0px;
+}
+
+.introduction-card{
+    display: block;
+    width: 500px;
+    margin: 30px auto 0px auto;
+    box-shadow: 0px 5px 5px 0px grey;
+    list-style-position: inside;
+}
+
+.introduction-header{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font: 30px bold;
+}
+
+.introduction-content{
+    padding: 10px;
+}
+
+.picture-wrapper > img{
+    width: 200px;
+    margin: auto 0px auto 0px;
+}
+
+.picture-wrapper{
+    text-align: center;
+}
+
+h3{
+    margin: 10px 0px 0px 0px;
+}
