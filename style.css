@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .header{
     background-color: lightskyblue;
     text-align: center;
@@ -11,11 +15,16 @@
 }
 
 .introduction-card{
+    background-color: white;
     display: block;
     width: 500px;
     margin: 30px auto 0px auto;
     box-shadow: 0px 5px 5px 0px grey;
     list-style-position: inside;
+}
+
+.introduction-card:hover{
+    filter: brightness(1.1);
 }
 
 .introduction-header{
